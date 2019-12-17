@@ -320,7 +320,7 @@ Targeted platforms:
 +--------------+-----------------------+----------------------+----------------------+--------------------+---------------+
 | Architecture | Ubuntu Bionic (18.04) | MacOS Sierra (10.12) | Windows 10 (VS2019)  | Debian Stretch (9) | OpenEmbedded  |
 |              |                       |                      |                      |                    | Thud (2.6) /  |
-|              |                       |                      |                      |                    | webOS OSE [s] |
+|              |                       |                      |                      |                    | webOS OSE (1.0) [s] |
 +==============+=======================+======================+======================+====================+===============+
 |    amd64     |   Tier 1 [d][a][s]    |     Tier 1 [a][s]    |    Tier 1 [a][s]     |     Tier 3 [s]     |               |
 +--------------+-----------------------+----------------------+----------------------+--------------------+---------------+
@@ -409,7 +409,7 @@ Dependency Requirements:
 
 " ** " Rolling distributions will see multiple version changes of these dependencies during their lifetime.
 
-" \*** " webOS OSE provides this different version.
+" \*** " webOS OSE 1.0 provides this different version.
 
 This document only captures the version at the first release of a ROS distribution and will not be updated as the dependencies move forward.
 These versions are thus a low watermark.
@@ -438,7 +438,7 @@ Targeted platforms:
 +--------------+-----------------------+----------------------+----------------------+--------------------+---------------+
 | Architecture | Ubuntu Bionic (18.04) | MacOS Mojave (10.14) | Windows 10 (VS2019)  | Debian Buster (10) | OpenEmbedded  |
 |              |                       |                      |                      |                    | Thud (2.6) /  |
-|              |                       |                      |                      |                    | webOS OSE [s] |
+|              |                       |                      |                      |                    | webOS OSE (1.0) [s] |
 +==============+=======================+======================+======================+====================+===============+
 |    amd64     |   Tier 1 [d][a][s]    |     Tier 1 [a][s]    |    Tier 1 [a][s]     |     Tier 3 [s]     |               |
 +--------------+-----------------------+----------------------+----------------------+--------------------+---------------+
@@ -528,7 +528,7 @@ Dependency Requirements:
 
 " \*** " It is anticipated that this will be increased to Connext DDS 6.0.0 pending migration patches [7]_.
 
-" \**** " webOS OSE provides this different version.
+" \**** " webOS OSE 1.0 provides this different version.
 
 This document only captures the version at the first release of a ROS distribution and will not be updated as the dependencies move forward.
 These versions are thus a low watermark.
